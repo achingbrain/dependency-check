@@ -1,5 +1,5 @@
 {
-  "name": "dependency-check",
+  "name": "@achingbrain/dependency-check",
   "version": "4.1.0",
   "description": "checks which modules you have used in your code and then makes sure they are listed as dependencies in your package.json",
   "main": "index.js",

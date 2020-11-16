@@ -1,3 +1,5 @@
+> # This is a temporary fork which is only necessary until [dependency-check-team/dependency-check#127](https://github.com/dependency-check-team/dependency-check/pull/127) or equivalent is merged
+
 # dependency-check
 
 checks which modules you have used in your code and then makes sure they are listed as dependencies in your package.json, or vice-versa
@@ -57,7 +59,7 @@ $ dependency-check ./test/**/*.js ./lib/*.js
 
 To always exit with code 0 pass `--ignore`
 
-### --missing 
+### --missing
 
 running `dependency-check ./package.json --missing` will only do the check to make sure that all modules in your code are listed in your package.json
 
